@@ -1,0 +1,41 @@
+Package: sean_r_package
+Type: Package
+Title: Sean's R Package
+Version: 1.0.0
+Date: 2019-12-10
+Author: Sean Sebry <sean.sebry@gmail.com>
+Maintainer: Sean Sebry <sean.sebry@gmail.com>
+Description: Utterly useless functions 
+License: Proprietary. For use by ANYONE and WHOMEVER/WHOEVER ... English is a struggle for me.
+Encoding: UTF-8
+LazyData: true
+VignetteBuilder: knitr	
+LinkingTo: Rcpp
+RoxygenNote: 6.1.1
+Depends:
+    tidyverse
+Imports:
+    data.table,
+    future,
+    future.apply,
+    ggthemes,
+    gridExtra,
+    h2o,
+    janitor,
+    lwgeom,
+    knitr,
+    maptools,
+    pracma,
+    raster,
+    reshape2,
+    sf,seam
+    sp,
+    stats,
+    stringr,
+    tibble,
+    tmap,
+    tmaptools
+Suggests:
+    testthat,
+    lintr,
+    rmarkdown

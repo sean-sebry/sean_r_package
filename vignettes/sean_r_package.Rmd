@@ -1,0 +1,37 @@
+---
+title: "sean_r_package"
+author: "Sean Sebry"
+date: "12/10/2019"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+
+```{r random notes I don't know where to put}
+# First I made 3 functions, and the zzz.R
+#   -Not sure about the [=] thing
+# Then, I made the DESCRIPTION txt doc manually
+
+
+# Do I need to make the cache folder manually?
+# How the hell does roxygen work.
+
+
+# What does echo do again?
+
+```
+
+
+
+```{r wrapper, echo=FALSE}
+
+library('sean_r_package')
+
+
+
+```
+
