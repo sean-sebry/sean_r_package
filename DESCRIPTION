@@ -1,4 +1,4 @@
-Package: sean_r_package
+Package: seanrpackage
 Type: Package
 Title: Sean's R Package
 Version: 1.0.0
@@ -11,30 +11,9 @@ Encoding: UTF-8
 LazyData: true
 VignetteBuilder: knitr	
 LinkingTo: Rcpp
-RoxygenNote: 6.1.1
-Depends:
-    tidyverse
+RoxygenNote: 7.0.2
 Imports:
-    data.table,
-    future,
-    future.apply,
-    ggthemes,
-    gridExtra,
-    h2o,
-    janitor,
-    lwgeom,
-    knitr,
-    maptools,
-    pracma,
-    raster,
-    reshape2,
-    sf,seam
-    sp,
-    stats,
-    stringr,
-    tibble,
-    tmap,
-    tmaptools
+    data.table
 Suggests:
     testthat,
     lintr,

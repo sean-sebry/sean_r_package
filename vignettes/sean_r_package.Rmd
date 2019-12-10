@@ -23,15 +23,21 @@ knitr::opts_chunk$set(echo = TRUE)
 
 # What does echo do again?
 
-Woooh
+# Woooh
+
+install.packages("roxygen2", "devtools")
+library(roxygen2)
+library(devtools)
+document()
+
 
 ```
 
 
 
-```{r wrapper, echo=FALSE}
+```{r wrapper}
 
-library('sean_r_package')
+library('seanrpackage')
 
 
 
